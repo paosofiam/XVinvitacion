@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Diplomata+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Diplomata+SC&family=Lugrasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Diplomata+SC&family=Lugrasimo&family=Marko+One&display=swap');
 
 :root{
@@ -9,9 +6,8 @@
     --fDiplomataSC: "Diplomata SC", serif;
     --fLugrasimo: "Lugrasimo", cursive;
     --fMarko1: "Marko One", serif;
-    --fCalibri: calibri, arial;
+    /* --fCalibri: calibri, arial; */
     --FW: 400;
-    --Fstyle: normal;
     /*Colors*/
     --lBlue: #0676B5;
 }
@@ -45,13 +41,13 @@ h2{
     font-weight: 100;
 }
 h3{
-    font-family: var(--fCalibri);
+    /* font-family: var(--fCalibri); */
     color: var(--lBlue);
 }
 
 a{
     text-decoration: none;
-    font-family: var(--fCalibri);
+    /* font-family: var(--fCalibri); */
     color: white;
     background-color: var(--lBlue);
     height: 50px;
@@ -65,15 +61,15 @@ span{
     margin: auto 0;
     padding: 0;
     text-align: center;
-    font-family: var(--fCalibri);
+    /* font-family: var(--fCalibri); */
 }
 
 
 .p1{
-    font-family: var(--fCalibri);
+    /* font-family: var(--fCalibri); */
 }
 .p2{/*Bolder*/
-    font-family: var(--fCalibri);
+    /* font-family: var(--fCalibri); */
 }
 
 .oneColumn{
@@ -82,9 +78,17 @@ span{
     align-items: center;
     justify-content: space-between;
 }
-.twoColumns{
+
+.oneColumn:fir{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.twoColumns{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
