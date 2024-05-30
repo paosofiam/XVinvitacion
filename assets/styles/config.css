@@ -18,15 +18,26 @@
 
 body{
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
+}
+main{
+    width: 40vw;
+}
+
+h1, h2, h3, p, a, span{
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 h1{
     font-family: var(--fDiplomata);
     color: var(--lBlue);
     font-weight: 100;
-
 }
 h2{
     font-family: var(--fLugrasimo);
@@ -50,16 +61,11 @@ a{
 a:hover{
     background-color: lightblue;
 }
-
-h1, h2, h3, p, a{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 span{
     margin: auto 0;
     padding: 0;
     text-align: center;
+    font-family: var(--fCalibri);
 }
 
 
@@ -82,3 +88,18 @@ span{
     align-items: center;
     justify-content: space-between;
 }
+
+.number{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid black 1px;
+    color: white;
+    background: linear-gradient(0deg, rgba(6,118,181,1) 0%, rgba(148,187,233,1) 50%, rgba(6,118,181,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    font-weight: 900;
+}
+
