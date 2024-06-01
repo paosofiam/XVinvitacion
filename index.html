@@ -22,6 +22,9 @@
             <img class="esqInferior centro"  src="https://media-public.canva.com/0r_NU/MAFnxX0r_NU/1/t.png">
     </div> -->
     <main class="caja-invitacion">
+        <audio loop id="audioelement">
+            <source src="assets/music/cancion.mp3" type="audio/mpeg">
+        </audio>
         <div class="marco-superior">
             <div class="marco">
                 <img class="esqSuperior esqIsquierda" src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
@@ -129,18 +132,19 @@
             <img src="assets/images/mariposas1.gif" alt="mariposas varias">
         </div>
 
-        <video autoplay="autoplay" loop="loop" playsinline oncontextmenu="return false;"
-        preload="auto" id="cancion">
-        <source src="assets/video/main-video1364X682.mp4" type="video/mp4">
-    </video>
-
-        </main>
+        <audio src="assets/audio/cancion.mp3" controls autoplay loop class="d-none"></audio>
+    </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        const playSound = function() {
+            document.getElementById('audioelement').play();
+            document.removeEventListener('mousedown', playSound);
+        }
+        document.addEventListener('mousedown', playSound);
     </script>
-    <script src="assets/js/playMusic.js"></script>
-    <script src="assets/js/countdown.js"></script>
+    <script src="assets/countdown.js"></script>
 </body>
 
 </html>
