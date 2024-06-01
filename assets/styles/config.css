@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Diplomata+SC&family=Lugrasimo&family=Marko+One&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     /*Fonts*/
     --fDiplomata: "Diplomata", serif;
@@ -10,6 +13,12 @@
     --FW: 400;
     /*Colors*/
     --lBlue: #0676B5;
+    --colorUno: #545454;
+    --colorWhite: #fff;
+    --boxShadom: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    --fontUno: "Allura", cursive;
+    --fontDos: "Marck Script", cursive;
+    --fontTres: "Montserrat", sans-serif;
 }
 
 body{
@@ -27,41 +36,12 @@ h1, h2, h3, p, a, span{
     text-align: center;
 }
 
-h1{
-    font-family: var(--fDiplomata);
-    color: var(--lBlue);
-    font-weight: 100;
-}
-h2{
-    font-family: var(--fLugrasimo);
-    color: var(--lBlue);
-    font-weight: 100;
-}
 h3{
-    font-family: var(--fCalibri);
+    font-family: var(--fontUno);
     color: var(--lBlue);
 }
 
-.p1{
-    font-family: var(--fCalibri);
-}
-.p2{
-    font-family: var(--fCalibri);
-    font-weight: 700;
-}
 
-a{
-    text-decoration: none;
-    font-family: var(--fCalibri);
-    color: white;
-    background-color: var(--lBlue);
-    height: 50px;
-    width: 200px;
-    border-radius: 25px;
-}
-a:hover{
-    background-color: lightblue;
-}
 span{
     display: block;
     margin: auto 0;
@@ -70,18 +50,3 @@ span{
     font-family: var(--fCalibri);
 }
 
-.fecha{
-    width: 100%;
-}
-.fecha__seccion{
-    margin: 0 10px;
-    padding: 0 5px;
-    display: flex;
-    align-items: center;
-}
-.fecha__seccion--1{
-        border-right: solid var(--lBlue) 2px;
-}
-.fecha__seccion--2{
-    border-left: solid var(--lBlue) 2px;
-}
