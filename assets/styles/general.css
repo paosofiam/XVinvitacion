@@ -1,209 +1,23 @@
-.titulo {
-    margin-top: 8rem;
-}
-
-.titulo h1 {
-    font-family: var(--fontUno);
-    color: var(--lBlue);
-    font-weight: normal;
-    font-size: 150px;
-    max-width: 500px;
-    margin: 0 auto;
-    line-height: 130px;
-    text-align: left;
-}
-
-.titulo h1 span {
-    font-family: var(--fontUno);
-    color: var(--lBlue);
-    font-weight: 100;
-    font-size: 150px;
-    max-width: 500px;
-    margin: 0 auto;
-    line-height: 130px;
-    text-align: end;
-}
-
-.titulo h2 {
-    font-family: var(--fontDos);
-    color: var(--lBlue);
-    font-weight: 100;
-    font-size: 40px;
-    margin-bottom: 2rem;
-}
-
-.caja-agradecimiento {
-    max-width: 500px;
-    margin: 4rem auto 3rem;
-    color: var(--colorUno);
-}
-
-.caja-agradecimiento .p1 {
-    font-family: var(--fontTres);
-    font-size: 1.3rem;
-    margin-bottom: 4rem;
-}
-
-.caja-agradecimiento .p2 {
-    font-family: var(--fontTres);
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 4rem;
-}
-
-.caja-familiares {
-    margin-bottom: 5rem;
-}
-
-.caja-familiares h3 {
-    font-family: var(--fontDos);
-    color: var(--lBlue);
-    font-weight: 100;
-    font-size: 40px;
-    margin-bottom: 0;
-}
-
-.caja-familiares p {
-    font-family: var(--fontTres);
-    color: var(--colorUno);
-    font-size: 1.3rem;
-}
-
-.caja-agradecimiento.parrafo-invitacion {
-    margin: 0 auto 5rem;
-}
-
-.seccion-cuatro {
-    margin: 4rem auto 5rem;
-}
-
-.caja-fecha {
-    margin: 0 auto 5rem;
-}
-
-.caja-fecha span {
-    font-family: var(--fontDos);
-    color: var(--colorUno);
-    font-size: 40px;
-    padding: 0 3rem;
-}
-
-.caja-fecha p.p2 {
-    font-family: var(--fontUno);
-    font-weight: bold;
-    color: var(--colorUno);
-    font-size: 3rem;
-    margin: 1rem 0
-}
-
-.caja-fecha .fecha {
-    width: 100%;
-}
-
-.caja-fecha .fecha .mes span {
-    padding: 0 1rem;
-}
-
-.caja-fecha .fecha__seccion {
-    margin: 0 10px;
-    display: flex;
-    align-items: center;
-}
-
-.caja-fecha .fecha__seccion--1 {
-    border-right: 1px solid var(--lBlue);
-}
-
-.caja-fecha .fecha__seccion--2 {
-    border-left: 1px solid var(--lBlue);
-}
-
-.caja-faltan p.p2 {
-    font-family: var(--fontDos);
-    color: var(--lBlue);
-    font-size: 40px;
-    margin: 0 0 2rem;
-}
-
-.caja-faltan span {
-    font-family: var(--fontTres);
-    color: var(--colorUno);
-    font-size: 1.3rem;
-    margin-bottom: 0;
-}
-
-.caja-faltan span.number {
-    font-family: var(--fontDos);
-    color: var(--lBlue);
-    font-size: 3rem;
-    margin: 1rem 10px;
-    padding: 2rem 4rem;
-    font-weight: bold;
-    width: 60px;
-    height: 30px;
-    border-radius: 5px;
-    border: solid black 1px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.seccion-cinco {
-    margin: 0 auto 5rem;
-}
-
-.caja-recepcion h3{
-    font-family: var(--fontDos);
-    color: var(--lBlue);
-    font-weight: 100;
-    font-size: 40px;
-}
-
-.caja-recepcion p.p2{
-    font-family: var(--fontTres);
-    color: var(--colorUno);
-    font-size: 1.3rem;
-}
-
-
-.caja-recepcion a{
-    padding: 5px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    text-decoration: none;
-    font-family: var(--fontTres);
-    color: var(--colorWhite);
-    background-color: var(--lBlue);
-    border: 1px solid var(--colorgray);
-    height: 50px;
-    width: 200px;
-    border-radius: 25px;
+.caja-invitacion {
+    width: 60vw;
     box-shadow: var(--boxShadom);
     -webkit-box-shadow: var(--boxShadom);
     -moz-box-shadow: var(--boxShadom);
-}
-.caja-recepcion a:hover{
-    background-color: lightblue;
+    position: relative;
+    background-image: url('../images/brillos.gif');
+    background-repeat: repeat;
+    background-size: 20%;
 }
 
 .marco {
-    height: 95vh;
     width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    top: 10px;
     left: 50%;
     transform: translate(-50%, 0);
-
-    box-shadow: var(--boxShadom);
-    -webkit-box-shadow: var(--boxShadom);
-    -moz-box-shadow: var(--boxShadom);
 }
 
 .marco img {
@@ -243,4 +57,272 @@
 
 .espejoDiag {
     transform: scaleX(-1) scaleY(-1);
+}
+
+.titulo {
+    margin-top: 8rem;
+    position: relative;
+}
+
+.titulo h1 {
+    font-family: var(--fontUno);
+    color: var(--lBlue);
+    font-weight: normal;
+    font-size: 150px;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 130px;
+    text-align: left;
+}
+
+.titulo .figura-1 {
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+}
+
+.titulo .figura-1 img {
+    width: 210px;
+}
+
+.titulo h1 span {
+    font-family: var(--fontUno);
+    color: var(--lBlue);
+    font-weight: 100;
+    font-size: 150px;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 130px;
+    text-align: end;
+}
+
+.titulo h2 {
+    font-family: var(--fontDos);
+    color: var(--lBlue);
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.seccion-uno .figura-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.seccion-uno .figura-1 img {
+    width: 400px;
+}
+
+.caja-agradecimiento {
+    max-width: 500px;
+    margin: 4rem auto 3rem;
+    color: var(--colorUno);
+}
+
+.caja-agradecimiento .p1 {
+    font-family: var(--fontTres);
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+
+.caja-agradecimiento .p2 {
+    font-family: var(--fontTres);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.caja-familiares {
+    margin-bottom: 5rem;
+}
+
+.caja-familiares h3 {
+    font-family: var(--fontDos);
+    color: var(--lBlue);
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.caja-familiares p {
+    font-family: var(--fontTres);
+    color: var(--colorUno);
+    font-size: 1.3rem;
+}
+
+.caja-agradecimiento.parrafo-invitacion {
+    margin: 0 auto 3rem;
+}
+
+.seccion-cuatro {
+    margin: 4rem auto 5rem;
+}
+
+.seccion-cuatro .figura-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.seccion-cuatro .figura-1 img {
+    width: 400px;
+}
+
+.caja-fecha {
+    margin: 0 auto 5rem;
+}
+
+.caja-fecha span {
+    font-family: var(--fontDos);
+    color: var(--colorUno);
+    font-size: 40px;
+    padding: 0 3rem;
+}
+
+.caja-fecha p.p2 {
+    font-family: var(--fontUno);
+    font-weight: bold;
+    color: var(--colorUno);
+    font-size: 3rem;
+    margin: 1rem 0
+}
+
+.caja-fecha .fecha {
+    width: 100%;
+}
+
+.caja-fecha .fecha .mes span {
+    padding: 0 1rem;
+}
+
+.caja-fecha .fecha__seccion {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.caja-fecha .fecha__seccion--1 {
+    border-right: 1px solid var(--colorDos);
+}
+
+.caja-fecha .fecha__seccion--2 {
+    border-left: 1px solid var(--colorDos);
+}
+
+.caja-faltan p.p2 {
+    font-family: var(--fontDos);
+    color: var(--lBlue);
+    font-size: 40px;
+    margin: 0 0 2rem;
+}
+
+.caja-faltan span {
+    font-family: var(--fontTres);
+    color: var(--colorUno);
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.caja-faltan span.number {
+    font-family: var(--fontDos);
+    color: var(--lBlue);
+    font-size: 3rem;
+    margin: 1rem 10px;
+    padding: 2rem 4rem;
+    font-weight: bold;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid black 1px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-cinco {
+    margin: 0 auto 10rem;
+}
+
+.caja-recepcion h3{
+    font-family: var(--fontDos);
+    color: var(--lBlue);
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.caja-recepcion p.p2{
+    font-family: var(--fontTres);
+    color: var(--colorUno);
+    font-size: 1.3rem;
+}
+
+
+.caja-recepcion a{
+    padding: 5px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: var(--fontTres);
+    color: var(--colorWhite);
+    background-color: var(--lBlue);
+    border: 1px solid var(--colorgray);
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: var(--boxShadom);
+    -webkit-box-shadow: var(--boxShadom);
+    -moz-box-shadow: var(--boxShadom);
+}
+
+.caja-recepcion a:hover{
+    background-color: lightblue;
+}
+
+
+.gif-mariposas {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.gif-mariposas img {
+    width: 170px;
+}
+
+.gif-mariposas-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gif-mariposas-left img {
+    width: 250px;
+    rotate: -6deg;
+}
+
+@media screen and (max-width: 980px) {
+    .caja-invitacion {
+        width: 85vw;
+    }
+
+    .marco {
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .caja-invitacion {
+        width: 100vw;
+    }
+
+    .marco {
+        width: 100vw;
+    }
 }
