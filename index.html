@@ -129,13 +129,18 @@
             <img src="assets/images/mariposas1.gif" alt="mariposas varias">
         </div>
 
-        <audio src="assets/audio/cancion.mp3" controls autoplay loop class="d-none"></audio>
-    </main>
+        <video autoplay="autoplay" loop="loop" playsinline oncontextmenu="return false;"
+        preload="auto" id="cancion">
+        <source src="assets/video/main-video1364X682.mp4" type="video/mp4">
+    </video>
+
+        </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <script src="assets/countdown.js"></script>
+    <script src="assets/js/playMusic.js"></script>
+    <script src="assets/js/countdown.js"></script>
 </body>
 
 </html>
