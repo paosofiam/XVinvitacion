@@ -360,4 +360,16 @@ video {
     .caja-faltan span.number {
         padding: 2rem 2rem;
     }
+
+    .seccion-cuatro {
+        margin: 2rem auto 5rem;
+    }
+
+    .caja-faltan .reloj {
+        justify-content: center;
+    }
+
+    .seccion-cinco {
+        margin: 0 auto 20rem;
+    }
 }
