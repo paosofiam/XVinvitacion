@@ -317,7 +317,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .caja-invitacion {
         width: 100vw;
     }
