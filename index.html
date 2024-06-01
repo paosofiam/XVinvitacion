@@ -126,13 +126,11 @@
         <div class="gif-mariposas-left">
             <img src="assets/images/mariposas1.gif" alt="mariposas varias">
         </div>
-
-        <audio src="assets/audio/cancion.mp3" controls autoplay loop class="d-none"></audio>
     </main>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-
         const playSound = function() {
             document.getElementById('audioelement').play();
             document.removeEventListener('mousedown', playSound);

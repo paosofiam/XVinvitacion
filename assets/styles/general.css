@@ -373,3 +373,24 @@ video {
         margin: 0 auto 20rem;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .seccion-uno .figura-1 img {
+        width: 300px;
+    }
+
+    .caja-fecha .fecha__seccion {
+        margin: 0 10px;
+    }
+
+    .caja-fecha span {
+        font-size: 30px;
+    }
+    .seccion-cuatro .figura-1 img {
+        width: 300px;
+    }
+    
+    .caja-fecha p.p2 {
+        font-size: 2rem;
+    }
+}
