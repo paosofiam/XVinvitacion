@@ -307,6 +307,10 @@
     rotate: -6deg;
 }
 
+video {
+    display: none;
+}
+
 @media screen and (max-width: 980px) {
     .caja-invitacion {
         width: 85vw;
@@ -324,5 +328,48 @@
 
     .marco {
         width: 100vw;
+    }
+
+    .titulo h1 {
+        font-size: 135px;
+        margin: 0 2rem
+    }
+
+    .titulo h1 span {
+        font-size: 135px;
+    }
+
+    .titulo .figura-1 {
+        left: 30px;
+    }
+
+    .seccion-tres,
+    .seccion-uno {
+        padding: 0 2rem;
+    }
+
+    .caja-fecha span {
+        font-size: 35px;
+        padding: 0 10px;
+    }
+
+    .caja-fecha p.p2 {
+        font-size: 2.5rem;
+    }
+
+    .caja-faltan span.number {
+        padding: 2rem 2rem;
+    }
+
+    .seccion-cuatro {
+        margin: 2rem auto 5rem;
+    }
+
+    .caja-faltan .reloj {
+        justify-content: center;
+    }
+
+    .seccion-cinco {
+        margin: 0 auto 20rem;
     }
 }
