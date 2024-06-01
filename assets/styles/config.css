@@ -6,7 +6,7 @@
     --fDiplomataSC: "Diplomata SC", serif;
     --fLugrasimo: "Lugrasimo", cursive;
     --fMarko1: "Marko One", serif;
-    /* --fCalibri: calibri, arial; */
+    --fCalibri: calibri, arial;
     --FW: 400;
     /*Colors*/
     --lBlue: #0676B5;
@@ -19,9 +19,6 @@ body{
     justify-content: center;
     margin: 0;
     padding: 0;
-}
-main{
-    width: 40vw;
 }
 
 h1, h2, h3, p, a, span{
@@ -41,13 +38,21 @@ h2{
     font-weight: 100;
 }
 h3{
-    /* font-family: var(--fCalibri); */
+    font-family: var(--fCalibri);
     color: var(--lBlue);
+}
+
+.p1{
+    font-family: var(--fCalibri);
+}
+.p2{
+    font-family: var(--fCalibri);
+    font-weight: 700;
 }
 
 a{
     text-decoration: none;
-    /* font-family: var(--fCalibri); */
+    font-family: var(--fCalibri);
     color: white;
     background-color: var(--lBlue);
     height: 50px;
@@ -58,52 +63,25 @@ a:hover{
     background-color: lightblue;
 }
 span{
+    display: block;
     margin: auto 0;
     padding: 0;
     text-align: center;
-    /* font-family: var(--fCalibri); */
+    font-family: var(--fCalibri);
 }
 
-
-.p1{
-    /* font-family: var(--fCalibri); */
+.fecha{
+    width: 100%;
 }
-.p2{/*Bolder*/
-    /* font-family: var(--fCalibri); */
-}
-
-.oneColumn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.oneColumn:fir{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.twoColumns{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.number{
-    width: 60px;
-    height: 30px;
-    border-radius: 10px;
-    border: solid black 1px;
-    color: white;
-    background: linear-gradient(0deg, rgba(6,118,181,1) 0%, rgba(148,187,233,1) 50%, rgba(6,118,181,1) 100%);
+.fecha__seccion{
+    margin: 0 10px;
+    padding: 0 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0 5px;
-    font-weight: 900;
 }
-
+.fecha__seccion--1{
+        border-right: solid var(--lBlue) 2px;
+}
+.fecha__seccion--2{
+    border-left: solid var(--lBlue) 2px;
+}

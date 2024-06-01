@@ -1,0 +1,62 @@
+.marco{
+    height: 95vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+.marco img{
+    height: 200px;
+    width: auto;
+    position: absolute;
+}
+
+.esqSuperior{
+    top: 0;
+}
+.esqInferior{
+    bottom: 0;
+}
+.esqIsquierda{
+    left: 0;
+}
+.esqDerecha{
+    right: 0;
+}
+.centro{
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.espejoHorizontal{
+    transform: scaleX(-1);
+}
+.espejoVertical{
+    transform: scaleY(-1);
+}
+.espejoDiag{
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.number{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid black 1px;
+    color: white;
+    background: linear-gradient(0deg, rgba(6,118,181,1) 0%, rgba(148,187,233,1) 50%, rgba(6,118,181,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    font-weight: 900;
+}
