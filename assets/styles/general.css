@@ -6,7 +6,7 @@
     position: relative;
     background-image: url('../images/brillos.gif');
     background-repeat: repeat;
-    background-size: 20%;
+    background-size: 50%;
 }
 
 .marco {
@@ -73,6 +73,36 @@
     margin: 0 auto;
     line-height: 130px;
     text-align: left;
+}
+
+.abrir-invitacion .seccion-titulo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+}
+
+.abrir-invitacion .titulo h2 {
+    margin-top: 4rem
+}
+
+.abrir-invitacion .marco-inferior{
+    position: relative;
+    z-index: 1;
+}
+
+.titulo button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorDos);
+    border: 2px solid var(--colorDos);
+    font-family: var(--fontTres);
+    font-weight: bold;
+    color: var(--colorWhite);
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 0 auto 10rem; 
 }
 
 .titulo .figura-1 {
@@ -394,4 +424,13 @@ video {
     .caja-fecha p.p2 {
         font-size: 2rem;
     }
+}
+
+#abrirInvitacion {
+    transition: all 0.8s ease-in-out;
+}
+
+#invitacion {
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
 }

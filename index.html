@@ -33,129 +33,184 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="soyBody">
     <main class="caja-invitacion">
         <audio loop id="audioelement">
             <source src="assets/music/cancion.mp3" type="audio/mpeg">
         </audio>
-        <div class="marco-superior">
-            <div class="marco">
-                <img class="esqSuperior esqIsquierda" src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
-                <img class="esqSuperior esqDerecha espejoHorizontal"
-                    src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+        <div class="abrir-invitacion" id="abrirInvitacion">
+            <div class="marco-superior">
+                <div class="marco">
+                    <img class="esqSuperior esqIsquierda"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+                    <img class="esqSuperior esqDerecha espejoHorizontal"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+                </div>
             </div>
-        </div>
-        <div class="d-flex flex-column">
-            <div class="seccion-titulo">
+            <div class="seccion-titulo m-auto">
                 <div class="titulo" data-aos="fade-up">
                     <h2>Mis XV Años</h2>
-                    <h1>Evelin <span>Arlet</span></h1>
-                    <div class="figura-1">
-                        <img src="assets/images/mariposa1.gif" alt="Mariposas">
-                    </div>
+                    <button id="abrirInvitacionBtn">Ver invitación</button>
                 </div>
             </div>
-            <div class="seccion-uno">
-                <div class="caja-agradecimiento" data-aos="fade-up">
-                    <p class="p1">Doy gracias a Dios por permitirme llegar a este día, a mi madre por cuidarme, tenerme
-                        paciencia y aconsejarme para cumplir mi sueño que hoy se hizo realidad. A todos mis amigos por
-                        enseñarme el valor de la verdadera amistad, es por eso que quiero compartir este día tan
-                        especial con todos ustedes.</p>
-                    <p class="p2">¡Será una noche de diversión, música y baile!</p>
+            <div class="marco-inferior">
+                <div class="marco">
+                    <img class="esqInferior esqIsquierda espejoVertical"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+                    <img class="esqInferior esqDerecha espejoDiag"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
                 </div>
+            </div>
+        </div>
 
-                <div class="figura-1">
-                    <img src="assets/images/adornitobonito.svg" alt="Mariposas">
+
+        <div class="invitacion d-none" id="invitacion">
+            <div class="marco-superior">
+                <div class="marco">
+                    <img class="esqSuperior esqIsquierda"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+                    <img class="esqSuperior esqDerecha espejoHorizontal"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
                 </div>
             </div>
-            <div class="seccion-dos">
-                <div class="caja-familiares" data-aos="fade-up">
-                    <h3>Mi madre</h3>
-                    <p class="p1">ELIZABETH LOPEZ PULIDO</p>
-                    <h3>Mi hermano</h3>
-                    <p class="p1">JOSMAR DE JESUS LOPEZ</p>
-                </div>
-            </div>
-            <div class="seccion-tres">
-                <div class="caja-agradecimiento parrafo-invitacion" data-aos="fade-up">
-                    <p class="p2" data-aos="fade-up">Tenemos el honor de invitar a usted y su apreciable familia a
-                        celebrar mis XV años.</p>
-                </div>
-            </div>
-            <div class="seccion-cuatro">
-                <div class="caja-fecha" data-aos="fade-up">
-                    <div class="fecha d-flex flex-row justify-content-center">
-                        <span class="fecha__seccion fecha__seccion--1">Sábado</span>
-                        <div class="fecha__seccion mes d-flex flex-column">
-                            <span>Junio</span>
-                            <span>03</span>
+            <div class="d-flex flex-column">
+                <div class="seccion-titulo">
+                    <div class="titulo" data-aos="fade-up">
+                        <h2>Mis XV Años</h2>
+                        <h1>Evelin <span>Arlet</span></h1>
+                        <div class="figura-1">
+                            <img src="assets/images/mariposa1.gif" alt="Mariposas">
                         </div>
-                        <span class="fecha__seccion fecha__seccion--2">2024</span>
+                    </div>
+                </div>
+                <div class="seccion-uno">
+                    <div class="caja-agradecimiento" data-aos="fade-up">
+                        <p class="p1">Doy gracias a Dios por permitirme llegar a este día, a mi madre por cuidarme,
+                            tenerme
+                            paciencia y aconsejarme para cumplir mi sueño que hoy se hizo realidad. A todos mis amigos
+                            por
+                            enseñarme el valor de la verdadera amistad, es por eso que quiero compartir este día tan
+                            especial con todos ustedes.</p>
+                        <p class="p2">¡Será una noche de diversión, música y baile!</p>
                     </div>
 
-                    <p class="p2">4:00 pm</p>
                     <div class="figura-1">
-                        <img src="assets/images/bigotefloral.svg" alt="Mariposas">
+                        <img src="assets/images/adornitobonito.svg" alt="Mariposas">
                     </div>
                 </div>
-                <div class="caja-faltan">
-                    <p class="p2">Faltan:</p>
-                    <div class="d-flex flex-row reloj">
-                        <div class="d-flex flex-column">
-                            <span>Días</span>
-                            <span id="days" class="number"></span>
+                <div class="seccion-dos">
+                    <div class="caja-familiares" data-aos="fade-up">
+                        <h3>Mi madre</h3>
+                        <p class="p1">ELIZABETH LOPEZ PULIDO</p>
+                        <h3>Mi hermano</h3>
+                        <p class="p1">JOSMAR DE JESUS LOPEZ</p>
+                    </div>
+                </div>
+                <div class="seccion-tres">
+                    <div class="caja-agradecimiento parrafo-invitacion" data-aos="fade-up">
+                        <p class="p2" data-aos="fade-up">Tenemos el honor de invitar a usted y su apreciable familia a
+                            celebrar mis XV años.</p>
+                    </div>
+                </div>
+                <div class="seccion-cuatro">
+                    <div class="caja-fecha" data-aos="fade-up">
+                        <div class="fecha d-flex flex-row justify-content-center">
+                            <span class="fecha__seccion fecha__seccion--1">Sábado</span>
+                            <div class="fecha__seccion mes d-flex flex-column">
+                                <span>Junio</span>
+                                <span>15</span>
+                            </div>
+                            <span class="fecha__seccion fecha__seccion--2">2024</span>
                         </div>
-                        <div class="d-flex flex-column">
-                            <span>Horas</span>
-                            <span id="hours" class="number"></span>
+
+                        <p class="p2">4:00 pm</p>
+                        <div class="figura-1">
+                            <img src="assets/images/bigotefloral.svg" alt="Mariposas">
                         </div>
-                        <div class="d-flex flex-column">
-                            <span>Min.</span>
-                            <span id="minutes" class="number"></span>
-                        </div>
-                        <div class="d-flex flex-column">
-                            <span>Seg.</span>
-                            <span id="seconds" class="number"></span>
+                    </div>
+                    <div class="caja-faltan">
+                        <p class="p2">Faltan:</p>
+                        <div class="d-flex flex-row reloj">
+                            <div class="d-flex flex-column">
+                                <span>Días</span>
+                                <span id="days" class="number"></span>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span>Horas</span>
+                                <span id="hours" class="number"></span>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span>Min.</span>
+                                <span id="minutes" class="number"></span>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span>Seg.</span>
+                                <span id="seconds" class="number"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="seccion-cinco">
-                <div class="caja-recepcion" data-aos="fade-up">
-                    <h3>Recepción</h3>
-                    <p class="p2">SALON PARADISE POOL EVENTS EJ. PUEBLO NUEVO
-                    </p>
-                    <a href="https://www.google.com.mx/maps/search/SALON+PARADISE+POOL+EVENTS+EJ.+PUEBLO+NUEVO/@20.8934029,-97.6812245,19.38z?entry=ttu"
-                        target="_blank">
-                        <img src="assets/images/mapa.png" width="25" alt="direccion"> UBICACIÓN
-                    </a>
+                <div class="seccion-cinco">
+                    <div class="caja-recepcion" data-aos="fade-up">
+                        <h3>Recepción</h3>
+                        <p class="p2">SALON PARADISE POOL EVENTS EJ. PUEBLO NUEVO
+                        </p>
+                        <a href="https://www.google.com.mx/maps/search/SALON+PARADISE+POOL+EVENTS+EJ.+PUEBLO+NUEVO/@20.8934029,-97.6812245,19.38z?entry=ttu"
+                            target="_blank">
+                            <img src="assets/images/mapa.png" width="25" alt="direccion"> UBICACIÓN
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="marco-inferior">
-            <div class="marco">
-                <img class="esqInferior esqIsquierda espejoVertical"
-                    src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
-                <img class="esqInferior esqDerecha espejoDiag"
-                    src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+            <div class="marco-inferior">
+                <div class="marco">
+                    <img class="esqInferior esqIsquierda espejoVertical"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+                    <img class="esqInferior esqDerecha espejoDiag"
+                        src="https://media-public.canva.com/5CsFo/MAFyRB5CsFo/1/s.png">
+                </div>
             </div>
-        </div>
-        <div class="gif-mariposas">
-            <img src="assets/images/mariposa1.gif" alt="mariposas varias">
-        </div>
-        <div class="gif-mariposas-left">
-            <img src="assets/images/mariposas1.gif" alt="mariposas varias">
+            <div class="gif-mariposas">
+                <img src="assets/images/mariposa1.gif" alt="mariposas varias">
+            </div>
+            <div class="gif-mariposas-left">
+                <img src="assets/images/mariposas1.gif" alt="mariposas varias">
+            </div>
         </div>
     </main>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-        const playSound = function () {
+
+        const abrirInvitacionBtn = document.getElementById('abrirInvitacionBtn');
+
+        abrirInvitacionBtn.addEventListener('click', function () {
+            const abrirInvitacion = document.getElementById('abrirInvitacion');
+            const verInvitacion = document.getElementById('invitacion');
+            const soyBody = document.getElementById('soyBody');
+
+            abrirInvitacion.style.opacity = 0;
+            
+            setTimeout(function(){
+                abrirInvitacion.classList.add('d-none');
+            }, 800);
+
+            verInvitacion.classList.remove('d-none');
+            setTimeout(function(){
+                soyBody.style.height = 'auto';
+                verInvitacion.style.opacity = 1;
+            }, 800);
+
+            document.getElementById('audioelement').play();
+
+        }) 
+
+        /* const playSound = function () {
             document.getElementById('audioelement').play();
             document.removeEventListener('mousedown', playSound);
         }
-        document.addEventListener('mousedown', playSound);
+        document.addEventListener('mousedown', playSound); */
     </script>
     <script src="assets/js/countdown.js"></script>
 </body>
