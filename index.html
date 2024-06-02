@@ -194,13 +194,14 @@
             
             setTimeout(function(){
                 abrirInvitacion.classList.add('d-none');
+                verInvitacion.classList.remove('d-none');
+                
             }, 800);
 
-            verInvitacion.classList.remove('d-none');
             setTimeout(function(){
                 soyBody.style.height = 'auto';
                 verInvitacion.style.opacity = 1;
-            }, 800);
+            }, 1600);
 
             document.getElementById('audioelement').play();
 
