@@ -247,21 +247,21 @@
     margin: 0 auto 10rem;
 }
 
-.caja-recepcion h3{
+.caja-recepcion h3 {
     font-family: var(--fontDos);
     color: var(--lBlue);
     font-weight: 100;
     font-size: 40px;
 }
 
-.caja-recepcion p.p2{
+.caja-recepcion p.p2 {
     font-family: var(--fontTres);
     color: var(--colorUno);
     font-size: 1.3rem;
 }
 
 
-.caja-recepcion a{
+.caja-recepcion a {
     padding: 5px 40px;
     display: flex;
     justify-content: center;
@@ -281,7 +281,7 @@
     -moz-box-shadow: var(--boxShadom);
 }
 
-.caja-recepcion a:hover{
+.caja-recepcion a:hover {
     background-color: lightblue;
 }
 
@@ -386,10 +386,11 @@ video {
     .caja-fecha span {
         font-size: 30px;
     }
+
     .seccion-cuatro .figura-1 img {
         width: 300px;
     }
-    
+
     .caja-fecha p.p2 {
         font-size: 2rem;
     }

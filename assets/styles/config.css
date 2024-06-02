@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Diplomata+SC&family=Lugrasimo&family=Marko+One&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     /*Fonts*/
-    --fDiplomata: "Diplomata", serif;
-    --fDiplomataSC: "Diplomata SC", serif;
-    --fLugrasimo: "Lugrasimo", cursive;
-    --fMarko1: "Marko One", serif;
-    --fCalibri: calibri, arial;
+    --fontUno: "Allura", cursive;
+    --fontDos: "Marck Script", cursive;
+    --fontTres: "Montserrat", sans-serif;
     --FW: 400;
     /*Colors*/
     --lBlue: #0676B5;
@@ -17,12 +12,9 @@
     --colorDos: #E3B900;
     --colorWhite: #fff;
     --boxShadom: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    --fontUno: "Allura", cursive;
-    --fontDos: "Marck Script", cursive;
-    --fontTres: "Montserrat", sans-serif;
 }
 
-body{
+body {
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -31,23 +23,27 @@ body{
     padding: 0;
 }
 
-h1, h2, h3, p, a, span{
+h1,
+h2,
+h3,
+p,
+a,
+span {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-h3{
+h3 {
     font-family: var(--fontUno);
     color: var(--lBlue);
 }
 
 
-span{
+span {
     display: block;
     margin: auto 0;
     padding: 0;
     text-align: center;
-    font-family: var(--fCalibri);
+    font-family: var(--fontUno);
 }
-
