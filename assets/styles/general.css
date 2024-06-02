@@ -4,7 +4,7 @@
     -webkit-box-shadow: var(--boxShadom);
     -moz-box-shadow: var(--boxShadom);
     position: relative;
-    background-image: url('../images/brillos.gif');
+    background-image: url('../images/brillos-gris.gif');
     background-repeat: repeat;
     background-size: 50%;
 }
@@ -87,8 +87,11 @@
 }
 
 .abrir-invitacion .marco-inferior{
-    position: relative;
+    position: absolute;
     z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .titulo button {
@@ -103,6 +106,10 @@
     padding: 10px 40px;
     border-radius: 10px;
     margin: 0 auto 10rem; 
+    border-radius: 25px;
+    box-shadow: var(--boxShadom);
+    -webkit-box-shadow: var(--boxShadom);
+    -moz-box-shadow: var(--boxShadom);
 }
 
 .titulo .figura-1 {
@@ -428,6 +435,8 @@ video {
 
 #abrirInvitacion {
     transition: all 0.8s ease-in-out;
+    height: 100vh;
+    display: flex;
 }
 
 #invitacion {
